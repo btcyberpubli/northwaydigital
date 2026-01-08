@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Northway Digital Services Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Northway Digital</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h1>Contact Us</h1>
+            <p>Get in Touch With Northway Digital Services Ltd</p>
+        </section>
+
+        <section id="contact-introduction">
+            <h2>How to Reach Us</h2>
+            <p>We welcome enquiries from businesses interested in learning more about our services or discussing how we can help with your specific requirements. Please use any of the contact methods below to reach our team.</p>
+        </section>
+
+        <section id="contact-information">
+            <h2>Contact Details</h2>
+            
+            <h3>Telephone</h3>
+            <p><span id="phone-display"></span></p>
+            <p>Our telephone lines are staffed Monday to Friday, 9:00 AM to 5:30 PM GMT. For non-urgent enquiries, email is often the best way to reach us, as it allows us to respond with detailed, thoughtful information. For urgent matters, please call during business hours.</p>
+            
+            <h3>Email</h3>
+            <p><span id="email-display"></span></p>
+            <p>Email enquiries are monitored throughout business hours and we aim to provide an initial response within two business days. For fastest response to urgent matters, please call our office directly rather than emailing.</p>
+            
+            <h3>Postal Address</h3>
+            <p><span id="address-display"></span></p>
+            <p>Please note that we do not currently accept postal applications or correspondence requiring in-person handling. All client interactions are managed through telephone, email, or video conferencing. If you need to send documents, please email them to us at the email address provided above.</p>
+            
+            <h3>Business Hours</h3>
+            <p>Monday to Friday: 9:00 AM to 5:30 PM GMT</p>
+            <p>Saturday and Sunday: Closed</p>
+            <p>UK Bank Holidays: Closed</p>
+            <p>We are closed during standard UK bank holidays. During these periods, email messages will be received but response times will be delayed. We recommend emailing well in advance of bank holiday periods if you need a response by a specific deadline.</p>
+            
+            <h3>Estimated Response Times</h3>
+            <p>General Enquiries: 2 business days</p>
+            <p>Technical Support Issues: 4 business hours for high-priority issues; 1 business day for standard issues</p>
+            <p>Service Proposals and Quotations: 3 to 5 business days</p>
+        </section>
+
+        <section id="contact-form">
+            <h2>Enquiry Form</h2>
+            <p>You can use the form below to submit an enquiry. Please provide as much detail as possible about your requirements so we can respond with relevant information. All information submitted through this form will be treated according to our <a href="privacy.html">Privacy Policy</a>.</p>
+            
+            <form id="enquiry-form" method="POST" action="/submit-enquiry">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Company Name:</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="position">Your Position:</label>
+                        <input type="text" id="position" name="position">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telephone">Telephone Number:</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Your Enquiry</legend>
+                    
+                    <div class="form-group">
+                        <label for="enquiry-type">Type of Enquiry:</label>
+                        <select id="enquiry-type" name="enquiry-type" required>
+                            <option value="">Please select</option>
+                            <option value="services">General Services Enquiry</option>
+                            <option value="support">Support Request</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="8" required>Please describe your requirements and any relevant background about your business.</textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="timeline">Preferred Timeline:</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Please select</option>
+                            <option value="immediate">As soon as possible</option>
+                            <option value="month">Within one month</option>
+                            <option value="quarter">Within three months</option>
+                            <option value="exploration">Still exploring options</option>
+                        </select>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Consent and Privacy</legend>
+                    
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">I confirm that I have read and understood the <a href="privacy.html">Privacy Policy</a> and consent to my information being used to respond to my enquiry and provide information about services.</label>
+                    </div>
+                </fieldset>
+                
+                <button type="submit">Submit Enquiry</button>
+                <p class="form-notice">By submitting this form, your information will be handled according to our Privacy Policy.</p>
+            </form>
+        </section>
+
+        <section id="privacy-notice">
+            <h2>Privacy Notice</h2>
+            <p>Any personal information you provide through this contact form will be processed according to our <a href="privacy.html">Privacy Policy</a>. We will use your information only to respond to your enquiry, provide requested information, and maintain records of our communications. Your information will not be shared with third parties unless required by law or explicitly authorised by you.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Northway Digital Services Ltd. All rights reserved. Registered in England and Wales.</p>
+            <p>Registered Address: Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a> | <a href="cookies.html">Cookie Policy</a> | <a href="legal.html">Legal Notice</a></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        document.getElementById('phone-display').textContent = BUSINESS_CONFIG.businessPhone;
+        document.getElementById('email-display').textContent = BUSINESS_CONFIG.businessEmail;
+        document.getElementById('address-display').textContent = BUSINESS_CONFIG.businessAddress;
+    </script>
+</body>
+</html>

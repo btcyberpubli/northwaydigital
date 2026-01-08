@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Notice - Northway Digital Services Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Northway Digital</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h1>Legal Notice</h1>
+            <p>Complete Legal Identification and Regulatory Information</p>
+        </section>
+
+        <section id="business-identification">
+            <h2>1. Business Identification</h2>
+            <p>This website is operated by and all services are provided by Northway Digital Services Ltd, a company registered in England and Wales.</p>
+            
+            <h3>Company Details</h3>
+            <p><strong>Legal Name:</strong> Northway Digital Services Ltd</p>
+            <p><strong>Registered Address:</strong> Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><strong>Business Address:</strong> Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><strong>Telephone:</strong> <span id="phone-display"></span></p>
+            <p><strong>Email:</strong> <span id="email-display"></span></p>
+            <p><strong>Website Domain:</strong> northwaydigital.co.uk</p>
+        </section>
+
+        <section id="business-description">
+            <h2>2. Business Description</h2>
+            <p>Northway Digital Services Ltd is a professional services organization specializing in Digital Marketing Agency. We provide advisory services, technical implementation services, and ongoing operational support to help businesses succeed and achieve their strategic objectives.</p>
+        </section>
+
+        <section id="regulatory-status">
+            <h2>3. Regulatory Status and Compliance</h2>
+            <p>Northway Digital Services Ltd operates in compliance with all applicable UK legislation and regulations, including but not limited to UK GDPR, Data Protection Act 2018, Consumer Rights Act 2015, Business Names Act 1985, and other relevant legislation. We maintain documented policies and procedures to ensure compliance.</p>
+        </section>
+
+        <section id="data-protection">
+            <h2>4. Data Protection and Privacy</h2>
+            <p>Northway Digital Services Ltd is committed to protecting your personal data and maintaining compliance with UK GDPR requirements. Our data protection practices are detailed in our <a href="privacy.html">Privacy Policy</a>. We are registered as a data controller and maintain strict controls over how personal data is handled and protected.</p>
+        </section>
+
+        <section id="intellectual-property">
+            <h2>5. Intellectual Property Rights</h2>
+            <p>All content on this website is the property of Northway Digital Services Ltd or its content suppliers and is protected by UK and international copyright law. The Northway Digital name and logo are trademarks of Northway Digital Services Ltd and may not be used without permission.</p>
+        </section>
+
+        <section id="liability-disclaimer">
+            <h2>6. Liability Disclaimer</h2>
+            <p>To the maximum extent permitted by law, Northway Digital Services Ltd shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from your use of this website or services.</p>
+        </section>
+
+        <section id="jurisdiction-law">
+            <h2>7. Governing Law and Jurisdiction</h2>
+            <p>All matters relating to this website and our services are governed by and construed in accordance with the laws of England and Wales. Any disputes shall be resolved exclusively in the courts of England and Wales.</p>
+        </section>
+
+        <section id="contact-legal">
+            <h2>8. Contact Information</h2>
+            <p>For legal matters, regulatory inquiries, or complaints, please contact us at:</p>
+            <div class="contact-details">
+                <p><strong>Email:</strong> <span id="email-display"></span></p>
+                <p><strong>Telephone:</strong> <span id="phone-display"></span></p>
+                <p><strong>Address:</strong> <span id="address-display"></span></p>
+            </div>
+            <p>Last Updated: January 2024</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Northway Digital Services Ltd. All rights reserved. Registered in England and Wales.</p>
+            <p>Registered Address: Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a> | <a href="cookies.html">Cookie Policy</a> | <a href="legal.html">Legal Notice</a></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        document.getElementById('phone-display').textContent = BUSINESS_CONFIG.businessPhone;
+        document.getElementById('email-display').textContent = BUSINESS_CONFIG.businessEmail;
+        document.getElementById('address-display').textContent = BUSINESS_CONFIG.businessAddress;
+    </script>
+</body>
+</html>

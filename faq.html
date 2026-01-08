@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Northway Digital Services Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Northway Digital</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h1>Frequently Asked Questions</h1>
+            <p>Common Questions About Northway Digital Services Ltd and Our Services</p>
+        </section>
+
+        <section id="faq-services">
+            <h2>Services and Capabilities</h2>
+            
+            <h3>What services does Northway Digital Services Ltd provide?</h3>
+            <p>We provide professional services designed to help organizations achieve their strategic objectives. For detailed information about each service, please visit our <a href="services.html">Services page</a>.</p>
+            
+            <h3>Can you work with organizations of different sizes?</h3>
+            <p>Yes, we work with organizations ranging from small businesses to large enterprises. Our services are tailored to your specific needs and circumstances.</p>
+            
+            <h3>Do you offer ongoing support?</h3>
+            <p>Yes, ongoing support is available through hourly consulting or retainer arrangements. We provide support through these models for organizations requiring regular expert guidance.</p>
+        </section>
+
+        <section id="faq-engagement">
+            <h2>Engagement and Timelines</h2>
+            
+            <h3>How do you charge for your services?</h3>
+            <p>Services are provided through project-based engagements with clear scope and fixed pricing, or through ongoing support arrangements using hourly rates or monthly retainers. All quotes are detailed and itemized.</p>
+            
+            <h3>How long does a typical project take?</h3>
+            <p>Project timelines vary depending on complexity and scope. We provide detailed project timelines during the proposal phase.</p>
+            
+            <h3>What is your typical engagement process?</h3>
+            <p>We begin with discovery to understand your situation and requirements. We then develop a project plan with milestones and timelines. Throughout implementation, we maintain regular communication and provide updates.</p>
+        </section>
+
+        <section id="faq-privacy-security">
+            <h2>Privacy, Security, and Data Protection</h2>
+            
+            <h3>How do you protect my personal data?</h3>
+            <p>We implement comprehensive technical and organisational measures to protect personal data from unauthorised access. For detailed information, see our <a href="privacy.html">Privacy Policy</a>.</p>
+            
+            <h3>Do you comply with UK GDPR?</h3>
+            <p>Yes, we are fully compliant with UK GDPR and related legislation. All our processes have been reviewed to ensure compliance.</p>
+            
+            <h3>How long do you keep my data?</h3>
+            <p>We retain data only as long as necessary to fulfill the purposes for which it was collected or as required by law. See our Privacy Policy for specific retention periods.</p>
+        </section>
+
+        <section id="faq-compliance">
+            <h2>Compliance and Legal</h2>
+            
+            <h3>Are you a legitimate UK registered business?</h3>
+            <p>Yes, Northway Digital Services Ltd is registered in England and Wales and operates in compliance with all applicable UK legislation. Full details are on our <a href="legal.html">Legal Notice page</a>.</p>
+            
+            <h3>What happens if I'm not satisfied?</h3>
+            <p>We are committed to your satisfaction. If you have concerns, please contact us immediately. We have a documented complaint handling process.</p>
+        </section>
+
+        <section id="faq-contact">
+            <h2>Contact and Support</h2>
+            
+            <h3>How do I contact you?</h3>
+            <p>You can reach us via telephone, email, or by submitting an enquiry form on our <a href="contact.html">Contact page</a>:</p>
+            <div class="contact-details">
+                <p><strong>Telephone:</strong> <span id="phone-display"></span></p>
+                <p><strong>Email:</strong> <span id="email-display"></span></p>
+            </div>
+            <p>We are available Monday to Friday, 9:00 AM to 5:30 PM GMT.</p>
+            
+            <h3>How quickly will you respond to my enquiry?</h3>
+            <p>General enquiries receive response within 2 business days. Urgent matters may receive faster response if you call during business hours.</p>
+        </section>
+
+        <section id="faq-additional">
+            <h2>Additional Questions</h2>
+            <p>If you have a question not addressed here, please contact us directly using the contact details above.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Northway Digital Services Ltd. All rights reserved. Registered in England and Wales.</p>
+            <p>Registered Address: Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a> | <a href="cookies.html">Cookie Policy</a> | <a href="legal.html">Legal Notice</a></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        document.getElementById('phone-display').textContent = BUSINESS_CONFIG.businessPhone;
+        document.getElementById('email-display').textContent = BUSINESS_CONFIG.businessEmail;
+    </script>
+</body>
+</html>

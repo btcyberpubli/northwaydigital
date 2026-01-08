@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Northway Digital Services Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Northway Digital</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h1>About Northway Digital Services Ltd</h1>
+            <p>Professional Digital Marketing Agency and Strategic Business Guidance</p>
+        </section>
+
+        <section id="company-background">
+            <h2>Company Background and Heritage</h2>
+            <p>Northway Digital Services Ltd was founded in 2019 as a response to a clear market need: Yorkshire and Northern UK businesses required expert digital marketing support but found most agencies were London-focused, expensive, and designed for larger enterprises with substantial budgets.</p>
+            <p>We specialise in cost-effective growth marketing for SMEs and emerging businesses. We help companies develop digital marketing strategies, manage advertising campaigns, improve online visibility, build customer acquisition pipelines, and achieve growth within realistic budgets. Our approach is fundamentally practical - we focus on channels and tactics that deliver measurable return on investment, not on industry trends.</p>
+            <p>Since 2019, we have worked with over 350 SMEs and growing businesses across Yorkshire, the Midlands, and beyond. Our clients include professional services firms, B2B companies, retailers, and SaaS businesses. We're particularly known for helping businesses transition from offline to digital-driven customer acquisition and for our ability to deliver growth without enormous marketing budgets. Our team averages 12+ years in digital marketing roles.</p>
+        </section>
+
+        <section id="company-values">
+            <h2>Our Core Values and Professional Philosophy</h2>
+            
+            <h3>Strategic Thinking and Business Focus</h3>
+            <p>We see our role as helping organizations develop and execute strategies that create sustainable competitive advantage and business success. Every recommendation we make is grounded in understanding your business model, competitive position, and strategic objectives. We measure success by whether we contribute to your actual business outcomes.</p>
+            
+            <h3>Professional Excellence</h3>
+            <p>Everything we do is grounded in professional standards and best practices. Our team members bring years of specialized experience in business strategy and operational management. We continuously invest in professional development to stay current with emerging approaches and industry trends. We take pride in delivering work that meets the highest standards of professional quality.</p>
+            
+            <h3>Compliance and Responsibility</h3>
+            <p>We take regulatory obligations and professional responsibility seriously - both for our own operations and when advising clients. We maintain compliance with all applicable legislation and encourage clients to do the same. We believe responsible business practices protect organizations and create the foundation for sustainable success.</p>
+            
+            <h3>Client-Focused Problem Solving</h3>
+            <p>Every business has unique circumstances, challenges, and objectives. We reject one-size-fits-all approaches in favor of tailored solutions developed through careful analysis of each client's specific situation. We invest time in understanding your business and developing recommendations specific to your context.</p>
+            
+            <h3>Transparency and Honesty</h3>
+            <p>We believe business relationships are built on trust and trust is built through honest communication. We are direct about what we can and cannot do, we provide realistic expectations about timelines and results, and we communicate clearly about what is working and what is not. We do not oversell our services or make promises we cannot keep.</p>
+        </section>
+
+        <section id="expertise-areas">
+            <h2>Areas of Professional Expertise</h2>
+            <p>Our team brings deep experience in digital marketing strategy, online advertising, and growth marketing for SMEs seeking to expand their market presence. This includes extensive knowledge of business strategy development, competitive analysis, market research, operational design, change management, and implementation methodology.</p>
+            <p>We also bring deep knowledge of the regulatory environment affecting UK businesses. This includes data protection obligations under UK GDPR, consumer and employment legislation, company law requirements, and industry-specific regulations. We help clients navigate this regulatory landscape whilst remaining commercially viable.</p>
+        </section>
+
+        <section id="commitment-excellence">
+            <h2>Our Commitment to Excellence and Accountability</h2>
+            <p>We accept accountability for the strategic advice we provide and the work we perform. Before recommending any course of action, we carefully consider potential risks, downsides, and alternatives. We do not recommend approaches we would not use ourselves. If we identify that a challenge falls outside our expertise, we are transparent about that limitation.</p>
+            <p>Quality assurance is embedded throughout our work. We conduct thorough review and quality checks before delivering any output. We welcome client feedback and use it to continuously improve the quality and relevance of our services.</p>
+        </section>
+
+        <section id="contact-section">
+            <h2>Connect With Us</h2>
+            <p>To learn more about Northway Digital Services Ltd and how we can help your organization succeed, please contact us directly:</p>
+            <div class="contact-details">
+                <p><strong>Telephone:</strong> <span id="phone-display"></span></p>
+                <p><strong>Email:</strong> <span id="email-display"></span></p>
+                <p><strong>Address:</strong> <span id="address-display"></span></p>
+            </div>
+            <p>We are available Monday to Friday, 9:00 AM to 5:30 PM GMT. Visit our <a href="contact.html">Contact page</a> to submit an enquiry or schedule a consultation.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Northway Digital Services Ltd. All rights reserved. Registered in England and Wales.</p>
+            <p>Registered Address: Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a> | <a href="cookies.html">Cookie Policy</a> | <a href="legal.html">Legal Notice</a></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        document.getElementById('phone-display').textContent = BUSINESS_CONFIG.businessPhone;
+        document.getElementById('email-display').textContent = BUSINESS_CONFIG.businessEmail;
+        document.getElementById('address-display').textContent = BUSINESS_CONFIG.businessAddress;
+    </script>
+</body>
+</html>

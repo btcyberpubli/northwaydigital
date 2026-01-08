@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy - Northway Digital Services Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Northway Digital</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h1>Cookie Policy</h1>
+            <p>How Northway Digital Services Ltd Uses Cookies and Similar Technologies</p>
+        </section>
+
+        <section id="cookie-introduction">
+            <h2>1. What Are Cookies</h2>
+            <p>Cookies are small text files that are stored on your computer or mobile device when you visit a website. Cookies allow websites to remember information about your visit, including your preferences and actions. Most web browsers accept cookies by default, though you can modify your browser settings to decline cookies.</p>
+        </section>
+
+        <section id="cookie-types">
+            <h2>2. Types of Cookies We Use</h2>
+            <p>We use essential cookies for functionality, performance cookies to understand user behaviour, functional cookies to remember preferences, and marketing cookies to deliver targeted advertising when you have consented.</p>
+        </section>
+
+        <section id="third-party-cookies">
+            <h2>3. Third-Party Cookies</h2>
+            <p>Some third-party service providers may set cookies on our website for analytics, advertising, or social media integration. Third-party cookies are bound by their own privacy policies. You can manage third-party cookies through your browser settings.</p>
+        </section>
+
+        <section id="cookie-consent">
+            <h2>4. Cookie Consent Management</h2>
+            <p>When you first visit our website, you will be presented with a cookie consent banner that explains the types of cookies we use and allows you to control your preferences. Your preferences will be saved and respected on subsequent visits.</p>
+        </section>
+
+        <section id="cookie-removal">
+            <h2>5. Removing and Disabling Cookies</h2>
+            <p>You can remove existing cookies and prevent future cookies by adjusting your browser settings. You can also opt out of specific third-party cookies through opt-out tools provided by third-party providers.</p>
+        </section>
+
+        <section id="privacy-cookies">
+            <h2>6. Cookies and Privacy</h2>
+            <p>Cookies may be linked to personal data you have provided and are treated as personal data under UK GDPR. We use cookies in accordance with our Privacy Policy and applicable data protection legislation.</p>
+        </section>
+
+        <section id="cookie-contact">
+            <h2>7. Questions About Cookies</h2>
+            <p>If you have questions about our cookie usage, please contact us:</p>
+            <div class="contact-details">
+                <p><strong>Email:</strong> <span id="email-display"></span></p>
+                <p><strong>Telephone:</strong> <span id="phone-display"></span></p>
+            </div>
+            <p>Last Updated: January 2024</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Northway Digital Services Ltd. All rights reserved. Registered in England and Wales.</p>
+            <p>Registered Address: Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a> | <a href="cookies.html">Cookie Policy</a> | <a href="legal.html">Legal Notice</a></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        document.getElementById('phone-display').textContent = BUSINESS_CONFIG.businessPhone;
+        document.getElementById('email-display').textContent = BUSINESS_CONFIG.businessEmail;
+    </script>
+</body>
+</html>

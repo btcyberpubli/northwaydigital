@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Northway Digital Services Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Northway Digital</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h1>Our Services</h1>
+            <p>Professional Services for Growing Businesses</p>
+        </section>
+
+        <section id="services-overview">
+            <h2>Service Overview</h2>
+            <p>Northway Digital Services Ltd provides a comprehensive range of professional services designed to help UK businesses achieve their strategic objectives. Our service portfolio is tailored to the needs of organizations seeking expert guidance, strategic planning, and implementation support. All our services are provided in accordance with relevant UK legislation and best practices, including UK GDPR, Consumer Rights Act, and industry-specific compliance requirements.</p>
+        </section>
+
+        <section id="service-strategy">
+            <h2>Strategic Planning and Advisory Services</h2>
+            <p>We provide strategic planning and advisory services to help organizations clarify objectives, develop competitive strategies, and plan implementation. Our approach begins with discovery and analysis, followed by strategic recommendations and implementation planning.</p>
+        </section>
+
+        <section id="service-implementation">
+            <h2>Implementation and Execution Services</h2>
+            <p>We support organizations in implementing strategic plans, establishing new processes and systems, and executing organizational change. Our implementation services are delivered through a structured methodology that ensures clarity, quality, and organizational alignment.</p>
+        </section>
+
+        <section id="service-optimization">
+            <h2>Performance Optimization Services</h2>
+            <p>We analyze organizational performance, identify optimization opportunities, and recommend improvements. Our optimization services help organizations operate more efficiently, reduce costs, and improve customer satisfaction.</p>
+        </section>
+
+        <section id="service-compliance">
+            <h2>Compliance and Risk Management</h2>
+            <p>We help organizations understand and meet regulatory requirements, implement compliance controls, and manage operational risks. Our compliance expertise covers UK regulatory requirements and helps organizations operate with confidence.</p>
+        </section>
+
+        <section id="service-support">
+            <h2>Ongoing Support and Consulting</h2>
+            <p>We provide ongoing support through consulting arrangements that allow organizations to access expert guidance as needs evolve. Support is available through hourly consulting or retainer models.</p>
+        </section>
+
+        <section id="engagement">
+            <h2>How We Engage</h2>
+            <p>Services are provided through project-based engagements for specific deliverables or through ongoing support arrangements. All engagements include clear communication, detailed documentation, and knowledge transfer to support your ongoing success.</p>
+        </section>
+
+        <section id="contact-section">
+            <h2>Learn More About Our Services</h2>
+            <p>To discuss which services are right for your organization, please contact us:</p>
+            <div class="contact-details">
+                <p><strong>Telephone:</strong> <span id="phone-display"></span></p>
+                <p><strong>Email:</strong> <span id="email-display"></span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Northway Digital Services Ltd. All rights reserved. Registered in England and Wales.</p>
+            <p>Registered Address: Unit 6, Arundel Court, Netherthorpe Road, Sheffield, S1 4QS, United Kingdom</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms and Conditions</a> | <a href="cookies.html">Cookie Policy</a> | <a href="legal.html">Legal Notice</a></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        document.getElementById('phone-display').textContent = BUSINESS_CONFIG.businessPhone;
+        document.getElementById('email-display').textContent = BUSINESS_CONFIG.businessEmail;
+    </script>
+</body>
+</html>
